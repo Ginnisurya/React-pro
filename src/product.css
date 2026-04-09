@@ -1,0 +1,19 @@
+.product{
+    /* padding: 5px;/ */
+    border: 2px solid rgb(230, 182, 182);
+    border-radius: 10px;
+    text-align: center;
+    
+    
+}
+
+h4{
+    height: 30px;
+    width: 200px;
+    background-color: yellow;
+    color: black;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    margin: 0;
+}
+
