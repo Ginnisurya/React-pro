@@ -12,15 +12,16 @@ import { Link } from "react-router-dom";
 
 const App = () => {
     return (
-        <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<DashBoard />} />
-                <Route path="/lottery" element={<Lotery />} />
-                <Route path="/todo" element={<TodoList />} />
-                <Route path="/counter" element={<Counter />} /> 
+        // <BrowserRouter>
+        //     <Routes>
+        //         <Route path="/" element={<DashBoard />} />
+        //         <Route path="/lottery" element={<Lotery />} />
+        //         <Route path="/todo" element={<TodoList />} />
+        //         <Route path="/counter" element={<Counter />} /> 
                 
-            </Routes>
-        </BrowserRouter>
+        //     </Routes>
+        // </BrowserRouter>
+        <Counter />
 
     )
 }
